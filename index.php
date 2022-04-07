@@ -18,14 +18,17 @@
                     Di magie perse
                     Quando tu, gente
                     Mi aiutavi crescere, a vincere';
+                    echo $_GET['']
             ?>
         <h1>
         <?php 
+
             echo '<pre>Il titolo del brano è:' . $title . PHP_EOL . 
             'il testo del brano è:' . $text . '</pre>';
-            $linea1 = 'Esempio di testo semplice...';
-            $linea2 = 'Sono andato a capo con PHP';
-            echo '<pre>' . $linea1 . PHP_EOL . $linea2 . '</pre>';
+            echo 'la lunghezza del testo è di &nbsp' . strlen($text). '&nbsp caratteri';
+            // $linea1 = 'Esempio di testo semplice...';
+            // $linea2 = 'Sono andato a capo con PHP';
+            // echo '<pre>' . $linea1 . PHP_EOL . $linea2 . '</pre>';
         ?>
         </h1>
     </div>
